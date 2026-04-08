@@ -1,0 +1,23 @@
+[
+  { "title": "Grocery shopping", "amount": 85.50, "category": "Food", "date": "2026-02-02", "description": "Weekly groceries from Woolworths" },
+  { "title": "Gym membership", "amount": 59.99, "category": "Health", "date": "2026-02-04", "description": "Monthly gym subscription" },
+  { "title": "Opal card top up", "amount": 40.00, "category": "Transport", "date": "2026-02-06", "description": "Weekly commute top up" },
+  { "title": "Netflix subscription", "amount": 22.99, "category": "Entertainment", "date": "2026-02-10", "description": "Monthly streaming plan" },
+  { "title": "Chemist warehouse", "amount": 34.50, "category": "Health", "date": "2026-02-14", "description": "Vitamins and supplements" },
+  { "title": "Dinner at Thai place", "amount": 48.00, "category": "Food", "date": "2026-02-18", "description": "Dinner with friends" },
+  { "title": "Petrol", "amount": 75.00, "category": "Transport", "date": "2026-02-22", "description": "Full tank fuel" },
+  { "title": "Grocery shopping", "amount": 92.00, "category": "Food", "date": "2026-03-01", "description": "Weekly groceries" },
+  { "title": "Uber to airport", "amount": 38.50, "category": "Transport", "date": "2026-03-05", "description": "Trip to Sydney Airport" },
+  { "title": "New shoes", "amount": 129.99, "category": "Shopping", "date": "2026-03-08", "description": "Running shoes from Rebel Sport" },
+  { "title": "Coffee and lunch", "amount": 24.50, "category": "Food", "date": "2026-03-11", "description": "Cafe lunch near uni" },
+  { "title": "Spotify premium", "amount": 11.99, "category": "Entertainment", "date": "2026-03-13", "description": "Monthly music subscription" },
+  { "title": "Electricity bill", "amount": 110.00, "category": "Other", "date": "2026-03-15", "description": "Quarterly electricity bill" },
+  { "title": "Clothes shopping", "amount": 89.00, "category": "Shopping", "date": "2026-03-19", "description": "T-shirts and jeans from Kmart" },
+  { "title": "Petrol", "amount": 68.00, "category": "Transport", "date": "2026-03-25", "description": "Fuel refill" },
+  { "title": "Doctor visit", "amount": 45.00, "category": "Health", "date": "2026-03-28", "description": "GP consultation" },
+  { "title": "Grocery shopping", "amount": 78.00, "category": "Food", "date": "2026-04-01", "description": "Weekly groceries from Coles" },
+  { "title": "Opal card top up", "amount": 40.00, "category": "Transport", "date": "2026-04-02", "description": "Weekly commute" },
+  { "title": "Easter lunch", "amount": 65.00, "category": "Food", "date": "2026-04-05", "description": "Easter family lunch" },
+  { "title": "Movie tickets", "amount": 38.00, "category": "Entertainment", "date": "2026-04-07", "description": "Movie night with friends" },
+  { "title": "Textbooks", "amount": 95.00, "category": "Shopping", "date": "2026-04-08", "description": "Uni textbooks for semester" }
+]
