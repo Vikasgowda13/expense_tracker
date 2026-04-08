@@ -9,7 +9,7 @@ Managing day to day expenses is something most people struggle to do consistentl
 ## Tech Stack
 
 | Layer | Technology |
-
+|---|---|
 | Frontend | HTML5, CSS3, Vanilla JavaScript |
 | Backend | Node.js, Express.js |
 | Database | MongoDB (via Mongoose ODM) |
@@ -26,22 +26,22 @@ Managing day to day expenses is something most people struggle to do consistentl
 - **Real-time summary cards** showing total spent, this month's total, entry count and top category
 - **Donut chart** showing spending distribution across categories with custom legend
 - **Bar chart** showing monthly spending comparison across last 6 months
-- **Clickable monthly trends**  click any month to see a detailed category donut chart and comparison bar chart
+- **Clickable monthly trends** click any month to see a detailed category donut chart and comparison bar chart
 - **Monthly budget tracker** set spending limits per category with colour-coded progress bars (green/amber/red)
 - **Search and filter** expenses by keyword, category, and month
 - **Sidebar navigation** with Dashboard, All Expenses, Budgets and Trends sections
 - **Toast notifications** for all actions (add, edit, delete, save budgets)
 - **Loading spinner** while data is being fetched from the database
-- **Single-Page Application**  no page reloads, all updates happen dynamically
-- **Responsive design**  works on both desktop and mobile screens
+- **Single-Page Application** no page reloads, all updates happen dynamically
+- **Responsive design** works on both desktop and mobile screens
 - **Form validation** prevents submission of incomplete or invalid data
-- **Error handling** displays user friendly messages if the server is unavailable
+- **Error handling** displays user-friendly messages if the server is unavailable
 
 ---
 
 ## Folder Structure
 
-
+```
 expense-tracker/
 ├── Backend/
 │   ├── models/
@@ -56,7 +56,7 @@ expense-tracker/
 ├── database/
 │   └── expenses_export.json  # Exported MongoDB data for submission
 └── README.md
-
+```
 
 ---
 
@@ -70,11 +70,11 @@ expense-tracker/
 
 1. Clone or extract the project folder
 2. Open a terminal and navigate to the Backend folder:
-
+```bash
 cd Backend
 npm install
 npm run dev
-
+```
 3. Open a second terminal, navigate to the Frontend folder, and open `index.html` using Live Server in VS Code
 4. The app should be running at `http://127.0.0.1:5500/index.html` with the backend on `http://localhost:5000`
 
@@ -93,7 +93,7 @@ npm run dev
 
 ## Challenges Overcome
 
-Building this project came with a few real hurdles. The first was understanding how a single page Application works in practice, rather than loading new HTML pages, all UI changes had to be handled dynamically through JavaScript DOM manipulation, which required a shift in thinking. The second challenge was connecting the frontend to the backend correctly, particularly handling CORS errors that blocked API requests between the two local servers. This was resolved by adding the `cors` middleware in express. The third issue was managing the edit and delete flow cleanly specifically, ensuring the modal form correctly pre filled with existing data and that the delete confirmation modal tracked the right expense ID without page state being lost. Finally formatting dates consistently across the frontend (converting MongoDB ISO date strings to readable Australian date format) took some trial and error but was solved using JavaScript's `toLocaleDateString` method.
+Building this project came with a few real hurdles. The first was understanding how a single page application works in practice, rather than loading new HTML pages, all UI changes had to be handled dynamically through JavaScript DOM manipulation, which required a shift in thinking. The second challenge was connecting the frontend to the backend correctly, particularly handling CORS errors that blocked API requests between the two local servers. This was resolved by adding the `cors` middleware in Express. A third issue was managing the edit and delete flow cleanly — specifically, ensuring the modal form correctly pre-filled with existing data and that the delete confirmation modal tracked the right expense ID without page state being lost. Finally, formatting dates consistently across the frontend (converting MongoDB ISO date strings to readable Australian date format) took some trial and error but was solved using JavaScript's `toLocaleDateString` method.
 
 ---
 
